@@ -1,4 +1,4 @@
-**Flutter Conference Hub:** An Open Source Project fo the Flutter Community
+**Flutter Conference Hub:** An Open Source Project for the Flutter Community
 
 This project aims to create a comprehensive platform for Flutter conferences, serving as a central hub for:
 
@@ -27,3 +27,5 @@ We welcome collaboration from developers, designers, and Flutter enthusiasts to 
 **Call to Action:**
 
 We invite you to join us in building this project! Contribute your skills, expertise, and passion to create a vibrant and valuable resource for the Flutter community.
+
+You can find the project at **[Flutter Conference Hub](https://github.com/JohanScheepers/flutter_conference_hub "Flutter Conference Hub")**
