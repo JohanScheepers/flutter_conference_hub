@@ -11,7 +11,7 @@ This project aims to create a comprehensive platform for Flutter conferences, se
 
 **Open Source Philosophy:**
 
-This project will be fully open source, adhering to the principles of transparency, collaboration, and community ownership. The code will be hosted on a public platform like GitHub, inviting contributions from developers worldwide.
+This project will be fully open source, adhering to the principles of transparency, collaboration, and community ownership. The code will be hosted on a public platform GitHub, inviting contributions from developers worldwide.
 
 **Benefits:**
 
