@@ -2,8 +2,8 @@
 
 ## FlutterCon Europe 2024
 
-| Talk Title | Speakers  | Day       | Time     | Video | Slides  | Code | Blog |
-| ---------- | --------- | --------- | -------- | ----- | ------- | ---- | ---- |
+| Talk       | Speakers  | Day       | Time       | Video | Slides  | Code | Blog |
+| ---------- | --------- | --------- | ---------- | ----- | ------- | ---- | ---- |
 | Opening keynote | Andrew Brogdon | Wednesday | 9:00 AM | [Video](https://www.droidcon.com/2024/09/03/opening-keynote/) |  |  |  |
 | Cat-like Development: Flutter for Efficiency | [Mangirdas Kazlauskas](https://x.com/mkobuolys) | Wednesday | 10:20 AM | [Video](https://www.droidcon.com/2024/09/03/cat-like-development-flutter-for-efficiency/) | [Slides](https://kazlauskas.dev/ldd/) | | |
 | Flutter Engineering - Architectural path | [Majid Hajian](https://x.com/mhadaily) | Wednesday | 10:20 AM | [Video](https://www.droidcon.com/2024/09/09/flutter-engineering-architectural-path/) |   |   |   |
@@ -29,9 +29,9 @@
 | Testing that your app is accessible to all | Alexander Troshkov | Wednesday | 3:45 PM | [Video](https://www.droidcon.com/2024/09/03/testing-that-your-app-is-accessible-to-all/) | [Slides](https://github.com/aednlaxer/flutterconeurope2024) |   |   |
 | Saving data before the app getting killed! Easy state restoration with Flutter | [Lucas Goldner](https://x.com/LucasGoldner) | Wednesday | 3:45 PM | [Video](https://www.droidcon.com/2024/09/03/saving-data-before-the-app-getting-killed-easy-state-restoration-with-flutter/) | [Slides](https://state-restoration-presentation.vercel.app/#/speaker) |   |   |
 | Compilers, Virtual Machines and Code Analysis - What makes Dart and Flutter run | Norbert Kozsir | Wednesday | 4:20 PM | [Video](https://www.droidcon.com/2024/09/03/compilers-virtual-machines-and-code-analysis-what-makes-dart-and-flutter-run/) |   |   |   |
-| Ubuntu: An OS experience built on Flutter | Lukas Klingsbo | Wednesday | 4:20 PM | [Slides](https://docs.google.com/presentation/d/14eGAql_pLZehIfSUlEwB4umUoxtlxnlN826yFaLw9xA/edit?usp=sharing), [Video](https://www.droidcon.com/2024/09/03/ubuntu-an-os-experience-built-on-flutter/) |
-| Lessons Learned from Launching a Flutter app in Production | [Andrea Bizzotto](https://x.com/biz84) | Wednesday | 4:20 PM | , [Video](https://www.droidcon.com/2024/09/03/lessons-learned-from-launching-a-flutter-app-in-production/) | [Slides](https://bizz84.github.io/fluttercon24_slides_web/) |   |   |
-| M&Ms Your Way: Build a Fun, Flutter-Powered Candy Dispenser (with Live Treats!) on Raspberry Pi 5 | [Moritz Theis](https://x.com/MoritzTheis), [Payam Zahedi](https://x.com/payamzahedi95) | Wednesday | 4:20 PM | , [Video](https://www.droidcon.com/2024/09/02/mms-your-way-build-a-fun-flutter-powered-candy-dispenser-with-live-treats-on-raspberry-pi-5/) |   | [Code](https://github.com/Snapp-X/m_and_m) |   |
+| Ubuntu: An OS experience built on Flutter | Lukas Klingsbo | Wednesday | 4:20 PM | [Video](https://www.droidcon.com/2024/09/03/ubuntu-an-os-experience-built-on-flutter/) | [Slides](https://docs.google.com/presentation/d/14eGAql_pLZehIfSUlEwB4umUoxtlxnlN826yFaLw9xA/edit?usp=sharing) |   |   |
+| Lessons Learned from Launching a Flutter app in Production | [Andrea Bizzotto](https://x.com/biz84) | Wednesday | 4:20 PM | [Video](https://www.droidcon.com/2024/09/03/lessons-learned-from-launching-a-flutter-app-in-production/) | [Slides](https://bizz84.github.io/fluttercon24_slides_web/) |   |   |
+| M&Ms Your Way: Build a Fun, Flutter-Powered Candy Dispenser (with Live Treats!) on Raspberry Pi 5 | [Moritz Theis](https://x.com/MoritzTheis), [Payam Zahedi](https://x.com/payamzahedi95) | Wednesday | 4:20 PM | [Video](https://www.droidcon.com/2024/09/02/mms-your-way-build-a-fun-flutter-powered-candy-dispenser-with-live-treats-on-raspberry-pi-5/) |   | [Code](https://github.com/Snapp-X/m_and_m) |   |
 | Monitor your Flutter app and see every issue! | Jonas Uekötter | Wednesday | 5:20 PM | [Video](https://www.droidcon.com/2024/09/03/monitor-your-flutter-app-and-see-every-issue/) |   |   |   |
 | Debugging performance issues with the Flutter DevTools | [Alexandre Moureaux](https://x.com/almouro) | Wednesday | 05:20 PM | [Video](https://www.droidcon.com/2024/09/03/debugging-performance-issues-with-the-flutter-devtools/) | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vTcUdCsRqDo0YJhCWLI4406Cw7lBruf0RvHQzdYxSh2_Xij1gjJ239aLegxvPDvmS-FAt2dAcl6binU/pub?start=false&loop=false&delayms=60000) | [Code](https://github.com/Almouro/flutter-performance-debugging-example) |   |
 | Adding HomeScreenWidgets to your Flutter App | Anton Borries | Wednesday | 5:20 PM | [Video](https://www.droidcon.com/2024/09/02/adding-homescreenwidgets-to-your-flutter-app/) |   |   |   |
