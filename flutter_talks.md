@@ -5,7 +5,6 @@
 | Talk Title | Speakers  | Day       | Time     | Video | Slides  | Code | Blog |
 | ---------- | --------- | --------- | -------- | ----- | ------- | ---- | ---- |
 | Opening keynote | Andrew Brogdon | Wednesday | 9:00 AM | [Video](https://www.droidcon.com/2024/09/03/opening-keynote/) |  |  |  |
-
 | Cat-like Development: Flutter for Efficiency | [Mangirdas Kazlauskas](https://x.com/mkobuolys) | Wednesday | 10:20 AM | [Video](https://www.droidcon.com/2024/09/03/cat-like-development-flutter-for-efficiency/) | [Slides](https://kazlauskas.dev/ldd/) | | |
 | Flutter Engineering - Architectural path | [Majid Hajian](https://x.com/mhadaily) | Wednesday | 10:20 AM | [Video](https://www.droidcon.com/2024/09/09/flutter-engineering-architectural-path/) |   |   |   |
 | Modular Flutter App Architecture: Answering the What, When and How | [Salih Guler](https://x.com/https://twitter.com/salihgueler) | Wednesday | 10:20 AM | [Video](https://www.droidcon.com/2024/09/03/modular-flutter-app-architecture-answering-the-what-when-and-how/) | [Slides](https://www.canva.com/design/DAGJz47iMDU/7xQRmNJ_uEpr4Pb2_nOocg/edit?utm_content=DAGJz47iMDU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |   |   |
