@@ -21,10 +21,19 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const FlutterLogo(
+              size: 100,
+            ),
             Text(
               widget.title,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            ElevatedButton(onPressed: () {}, child: const Text("Log In")),
+            IconButton(iconSize: 72,
+              onPressed: () {},
+              icon: const Icon(Icons.favorite),
+            ),
+            
           ],
         ),
       ),
