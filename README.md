@@ -8,7 +8,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ### 1.	Attendee
 
- #### - Badge
+ #### - [Badge](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/badge_attendee.dart "Badge") 
    - Information:
      - Name, Photo, Title, Company, Contact Details, Interests, QR Code (for scanning), Conference Pass (e.g., VIP, Speaker, etc.)
    - Customization:
@@ -16,10 +16,10 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Accessibility:
      - Ensure the badge is accessible for users with visual impairments (e.g., using larger font sizes or alternative color schemes).
 
- #### - Networking
+ #### - [Networking](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/networking_attendee.dart "Networking")
    - Scanning other attendees QR code to connect and save contact details
 
- #### - Schedule
+ #### - [Schedule](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/schedule_attendee.dart "Schedule")
    - Listing:
      - Display talks, workshops, demos, keynote sessions, and other activities.
    - Filtering:
@@ -36,14 +36,14 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ### 2.	Conference
 
- #### - Chat/Messaging
+ #### - [Chat/Messaging](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/chat_conference.dart "Chat/Messaging")
    - Attendees Chat: Allow attendees to communicate with each other and organizers within the app.
    - Group Chat: Facilitate discussions based on interests or specific sessions.
 
- #### - Feedback
+ #### - [Feedback](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/feedback_conference.dart "Feedback")
    - Allow attendees to rate the overall conference experience and provide feedback.
 
- #### - Map
+ #### - [Map](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/map_conference.dart "Map")
    - Indoor Navigation:
      - Use a 2D map of the venue and integrate with BLE beacons (more on this below).
    - Location Tracking:
@@ -55,17 +55,17 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Accessibility:
      - Ensure the map is usable for users with disabilities (e.g., color contrast, alternative navigation methods).
 
- #### - Networking
+ #### - [Networking](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/networking_conference.dart "Networking")
    - Networking Events:
      - List and provide details of networking events.
    - Matchmaking:
      - Use algorithms to suggest attendees with similar interests.
 
- #### - News Feed
+ #### - [News Feed](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/newsfeed_conference.dart "News Feed")
    - Announcements:
      - Display important announcements and updates from organizers.
 
- #### - Schedule
+ #### - [Schedule](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/schedule_conference.dart "Schedule")
    - Detailed View:
      - Provide information about each session, including speaker(s), description, location, start/end time, and Q&A.
    - Interactive Map Integration:
@@ -73,7 +73,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Live Updates:
      - Display changes to the schedule in real-time, potentially with push notifications.
 
- #### - Sponsors
+ #### - [Sponsors](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/sponsors_conference.dart "Sponsors")
    - Listing:
      - Display sponsors with their logos, descriptions, websites, and contact details.
    - Interactive Map Integration:
@@ -84,7 +84,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ### 3.	Organizers
 
- #### - Attendees
+ #### - [Attendees](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/organizers/attendees_management_organizers.dart "Attendees")
    - Management:
      - Add, edit, and delete attendees.
    - Check-in:
@@ -92,7 +92,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Reporting:
      - Generate reports on attendance, session popularity, and feedback.
 
- #### - Map Creation
+ #### - [Map Creation](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/organizers/map_creation_organizers.dart "Map Creation")
    - Interactive Map Editor:
      - Allow organizers to create and edit the conference map.
    - BLE Beacon Management:
@@ -100,13 +100,13 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Customizable Markers:
      - Allow organizers to use different icons for various POIs.
 
- #### - Schedule Management
+ #### - [Schedule Management](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/organizers/schedule_management_organizers.dart "Schedule Management")
    - Content Management:
      - Add, edit, and delete sessions, speakers, and other schedule items.
    - Notifications:
      - Send push notifications to attendees about schedule changes.
 
- #### - Sponsors
+ #### - [Sponsors](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/organizers/sponsors_organizers.dart "Sponsors")
    - Management:
      - Add, edit, and delete sponsors.
    - Branding:
