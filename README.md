@@ -59,7 +59,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
  - Sponsors:
    - Listing:
      - Display sponsors with their logos, descriptions, websites, and contact details.
-   - Interactive Map Integration
+   - Interactive Map Integration:
      - Show sponsor booths on the map.
    - Social Media Integration:
      - Allow attendees to follow sponsors on social media.
