@@ -131,7 +131,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 ## Technical Considerations:
 
  - Flutter:
-   - This project will Flutter for cross-platform development (Linux, Android and iOS).
+   - This project will Flutter for multiplatform development (Linux, Android and iOS).
  
  - State Management:
    - Riverpod
