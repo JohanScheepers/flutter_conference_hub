@@ -54,7 +54,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Search:
      - Allow attendees to search for specific locations.
    - Accessibility:
-     - Ensure the map is usable for users with disabilities (e.g., colour contrast, alternative navigation methods).
+     - Ensure the map is usable for users with disabilities (e.g., color contrast, alternative navigation methods).
 
  - Sponsors:
    - Listing:
