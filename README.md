@@ -23,8 +23,8 @@ This is a great starting point for a Flutter conference app! Here's a more detai
      - Allow attendees to filter by track, category, speaker, date, time, or keywords.
    - Search:
      - Implement a robust search functionality for quick access to specific sessions.
-   - Favourites:
-     - Enable attendees to mark sessions as favourites and create a personalized schedule.
+   - Favorites:
+     - Enable attendees to mark sessions as favorites and create a personalized schedule.
    - Notifications:
      - Send reminders about upcoming sessions or changes in the schedule.
    - Feedback:
