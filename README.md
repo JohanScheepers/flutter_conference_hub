@@ -48,7 +48,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Location Tracking:
      - Track the user's location within the venue and provide directions to specific points of interest (booths, sessions, restrooms, etc.), this will be handled by the app and not the back end.
    - Points of Interest (POIs):
-     - Mark booths, speaker rooms, food areas, networking events, and other relevant locations.
+     - Mark booths, speaker rooms, food areas, networking areas, and other relevant locations.
    - Search:
      - Allow attendees to search for specific locations.
    - Accessibility:
@@ -134,13 +134,13 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - This project will Flutter for multiplatform development (Linux, Android and iOS).
  
  - State Management:
-   - Riverpod
+   - Riverpod - Open For discussion
 
  - Local Storage:
-   - sqflite
+   - sqflite - Open For discussion
 
  - Backend:
-   - We are consider using a backend service like Serverpod, Firebase, or even a custom server to manage data, authentication, push notifications, and other functionality.
+   - We are consider using a backend service like Firebase, or even a custom server to manage data, authentication, push notifications, and other functionality.
 
  - BLE Beacon Integration:
    - SDKs:
@@ -173,7 +173,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ## Monetization:
 
+This is possibly on the road map in the future.
+
  - Sponsor Ads:
    - Display ads from sponsors within the app.
-
-
