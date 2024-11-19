@@ -10,6 +10,6 @@ class FeedbackConferencePage extends StatefulWidget {
 class _FeedbackConferencePageState extends State<FeedbackConferencePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Text("Allow attendees to rate the overall conference experience and provide feedback.");
   }
 }

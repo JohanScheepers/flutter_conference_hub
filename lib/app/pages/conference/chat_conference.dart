@@ -10,6 +10,6 @@ class ChatConferencePage extends StatefulWidget {
 class _ChatConferencePageState extends State<ChatConferencePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Text("Attendees Chat: Allow attendees to communicate with each other and organizers within the app.\nGroup Chat: Facilitate discussions based on interests or specific sessions.");
   }
 }

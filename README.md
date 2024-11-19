@@ -10,11 +10,14 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
  #### - Badge
    - Information:
-     - Name, Photo, Title, Company, Contact Details, QR Code (for scanning), Conference Pass (e.g., VIP, Speaker, etc.)
+     - Name, Photo, Title, Company, Contact Details, Interests, QR Code (for scanning), Conference Pass (e.g., VIP, Speaker, etc.)
    - Customization:
      - Ability to change the background color or add a personal touch.
    - Accessibility:
      - Ensure the badge is accessible for users with visual impairments (e.g., using larger font sizes or alternative color schemes).
+
+ #### - Networking
+   - Scanning other attendees QR code to connect and save contact details
 
  #### - Schedule
    - Listing:
@@ -30,19 +33,15 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Feedback:
      - Provide attendees the option to rate sessions and provide feedback.
 
- #### - Networking
-   - Scanning other attendees QR code to connect and save contact details
-
 
 ### 2.	Conference
 
- #### - Schedule
-   - Detailed View:
-     - Provide information about each session, including speaker(s), description, location, start/end time, and Q&A.
-   - Interactive Map Integration:
-     - Allow attendees to see the location of sessions on the map.
-   - Live Updates:
-     - Display changes to the schedule in real-time, potentially with push notifications.
+ #### - Chat/Messaging
+   - Attendees Chat: Allow attendees to communicate with each other and organizers within the app.
+   - Group Chat: Facilitate discussions based on interests or specific sessions.
+
+ #### - Feedback
+   - Allow attendees to rate the overall conference experience and provide feedback.
 
  #### - Map
    - Indoor Navigation:
@@ -56,6 +55,24 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Accessibility:
      - Ensure the map is usable for users with disabilities (e.g., color contrast, alternative navigation methods).
 
+ #### - Networking
+   - Networking Events:
+     - List and provide details of networking events.
+   - Matchmaking:
+     - Use algorithms to suggest attendees with similar interests.
+
+ #### - News Feed
+   - Announcements:
+     - Display important announcements and updates from organizers.
+
+ #### - Schedule
+   - Detailed View:
+     - Provide information about each session, including speaker(s), description, location, start/end time, and Q&A.
+   - Interactive Map Integration:
+     - Allow attendees to see the location of sessions on the map.
+   - Live Updates:
+     - Display changes to the schedule in real-time, potentially with push notifications.
+
  #### - Sponsors
    - Listing:
      - Display sponsors with their logos, descriptions, websites, and contact details.
@@ -64,24 +81,6 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Social Media Integration:
      - Allow attendees to follow sponsors on social media.
 
- #### - News Feed
-   - Announcements:
-     - Display important announcements and updates from organizers.
-
- #### - Chat/Messaging
-   - Allow attendees to communicate with each other and organizers within the app.
-   - Group Chat: Facilitate discussions based on interests or specific sessions.
-
- #### - Networking
-   - Attendee Profiles:
-     - Allow attendees to create profiles with their interests and contact information.
-   - Networking Events:
-     - List and provide details of networking events.
-   - Matchmaking:
-     - Use algorithms to suggest attendees with similar interests.
-
- #### - Feedback
-   - Allow attendees to rate the overall conference experience and provide feedback.
 
 ### 3.	Organizers
 
@@ -101,6 +100,12 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Customizable Markers:
      - Allow organizers to use different icons for various POIs.
 
+ #### - Schedule Management
+   - Content Management:
+     - Add, edit, and delete sessions, speakers, and other schedule items.
+   - Notifications:
+     - Send push notifications to attendees about schedule changes.
+
  #### - Sponsors
    - Management:
      - Add, edit, and delete sponsors.
@@ -109,14 +114,6 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Analytics:
      - Track sponsor engagement through user interactions.
 
- #### - Schedule Management
-   - Content Management:
-     - Add, edit, and delete sessions, speakers, and other schedule items.
-   - Notifications:
-     - Send push notifications to attendees about schedule changes.
-
-####  - Content Uploads
-   Allow organizers to upload videos, slides, and other materials from past conferences.
 
 ### [4.	Archive:](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/flutter_talks.md "Archive")
 
