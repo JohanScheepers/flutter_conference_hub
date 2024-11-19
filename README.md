@@ -2,6 +2,8 @@
 
 This is a great starting point for a Flutter conference app! Here's a more detailed breakdown and some suggestions for implementation:
 
+***Will start by building the basic app, with only a few page, MVP.***
+
 ## Core Features:
 
 ### 1.	Attendee:

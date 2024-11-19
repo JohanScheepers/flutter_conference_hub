@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_conference_hub/app/pages/home_page.dart';
+import 'package:flutter_conference_hub/app/pages/conference_hub_home_page.dart';
 
 import 'app/const/const.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ConferenceHub());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class ConferenceHub extends StatelessWidget {
+  const ConferenceHub({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: darkColorScheme,
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Flutter Conference Hub'),
+      home: const ConferenceHubHomePage(),
     );
   }
 }
