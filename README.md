@@ -6,9 +6,9 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ## Core Features:
 
-### 1.	Attendee:
+### 1.	Attendee
 
- - Badge:
+ #### - Badge
    - Information:
      - Name, Photo, Title, Company, Contact Details, QR Code (for scanning), Conference Pass (e.g., VIP, Speaker, etc.)
    - Customization:
@@ -16,7 +16,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Accessibility:
      - Ensure the badge is accessible for users with visual impairments (e.g., using larger font sizes or alternative color schemes).
 
- - Schedule:
+ #### - Schedule
    - Listing:
      - Display talks, workshops, demos, keynote sessions, and other activities.
    - Filtering:
@@ -30,13 +30,13 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Feedback:
      - Provide attendees the option to rate sessions and provide feedback.
 
- - Networking:
+ #### - Networking
    - Scanning other attendees QR code to connect and save contact details
 
 
-### 2.	Conference:
+### 2.	Conference
 
- - Schedule:
+ #### - Schedule
    - Detailed View:
      - Provide information about each session, including speaker(s), description, location, start/end time, and Q&A.
    - Interactive Map Integration:
@@ -44,7 +44,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Live Updates:
      - Display changes to the schedule in real-time, potentially with push notifications.
 
- - Map:
+ #### - Map
    - Indoor Navigation:
      - Use a 2D map of the venue and integrate with BLE beacons (more on this below).
    - Location Tracking:
@@ -56,7 +56,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Accessibility:
      - Ensure the map is usable for users with disabilities (e.g., color contrast, alternative navigation methods).
 
- - Sponsors:
+ #### - Sponsors
    - Listing:
      - Display sponsors with their logos, descriptions, websites, and contact details.
    - Interactive Map Integration:
@@ -64,15 +64,15 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Social Media Integration:
      - Allow attendees to follow sponsors on social media.
 
- - News Feed:
+ #### - News Feed
    - Announcements:
      - Display important announcements and updates from organizers.
 
- - Chat/Messaging:
+ #### - Chat/Messaging
    - Allow attendees to communicate with each other and organizers within the app.
    - Group Chat: Facilitate discussions based on interests or specific sessions.
 
- - Networking:
+ #### - Networking
    - Attendee Profiles:
      - Allow attendees to create profiles with their interests and contact information.
    - Networking Events:
@@ -80,12 +80,12 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Matchmaking:
      - Use algorithms to suggest attendees with similar interests.
 
- - Feedback:
+ #### - Feedback
    - Allow attendees to rate the overall conference experience and provide feedback.
 
-### 3.	Organizers:
+### 3.	Organizers
 
- - Attendees:
+ #### - Attendees
    - Management:
      - Add, edit, and delete attendees.
    - Check-in:
@@ -93,7 +93,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Reporting:
      - Generate reports on attendance, session popularity, and feedback.
 
- - Map Creation:
+ #### - Map Creation
    - Interactive Map Editor:
      - Allow organizers to create and edit the conference map.
    - BLE Beacon Management:
@@ -101,7 +101,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Customizable Markers:
      - Allow organizers to use different icons for various POIs.
 
- - Sponsors:
+ #### - Sponsors
    - Management:
      - Add, edit, and delete sponsors.
    - Branding:
@@ -109,66 +109,66 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Analytics:
      - Track sponsor engagement through user interactions.
 
- - Schedule Management:
+ #### - Schedule Management
    - Content Management:
      - Add, edit, and delete sessions, speakers, and other schedule items.
    - Notifications:
      - Send push notifications to attendees about schedule changes.
 
- - Content Uploads:
+####  - Content Uploads
    Allow organizers to upload videos, slides, and other materials from past conferences.
 
 ### [4.	Archive:](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/flutter_talks.md "Archive")
 
- - Video Library:
+ #### - Video Library
    - Host past conference talks, keynotes, and workshops.
- - Slide Decks:
+ #### - Slide Decks
    - Allow users to access and download presentation slides.
- - Past Schedules:
+ #### - Past Schedules
    - Provide access to archives of past conference schedules.
- - Speaker Bios:
+ #### - Speaker Bios
    - Showcase past speaker profiles.
 
 
-## Technical Considerations:
+## Technical Considerations
 
- - Flutter:
+ #### - Flutter
    - This project will Flutter for multiplatform development (Linux, Android and iOS).
  
- - State Management:
+ #### - State Management
    - Riverpod - Open For discussion
 
- - Local Storage:
+ #### - Local Storage
    - sqflite - Open For discussion
 
- - Backend:
+ #### - Backend
    - We are consider using a backend service like Firebase, or even a custom server to manage data, authentication, push notifications, and other functionality.
 
- - BLE Beacon Integration:
+ #### - BLE Beacon Integration
    - SDKs:
      - Use Flutter packages that interact with BLE beacons (e.g., flutter- blue).
    - Beacon Placement:
      - Carefully plan the placement of beacons for optimal indoor navigation coverage.
 
- - Maps:
+ #### - Maps
    - Google Maps OpenStreetMap or Custom Maps:
      - Use a mapping service for outdoor and indoor map rendering.
    - Offline Maps:
      - Enabling offline map support for better user experience in areas with poor connectivity.
 
- - Accessibility:
+ ####  - Accessibility
    - Follow Flutter's accessibility guidelines to ensure the app is usable for everyone.
 
- - Security:
+ #### - Security
    - Secure user data and protect against potential vulnerabilities.
 
-## Additional Features:
+## Additional Features
 
- - Gamification:
+ #### - Gamification
    - Incorporate features that encourage attendee engagement ~~(e.g., point systems, badges, leader boards).
 
- - Social Media Sharing:
+ #### - Social Media Sharing
    - Allow attendees to share their experiences on social media.
 
- - Translation:
+ #### - Translation
    - Support multiple languages for international conferences.
