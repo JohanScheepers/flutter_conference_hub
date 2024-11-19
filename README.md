@@ -6,7 +6,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
 ## Core Features:
 
-### 1.	Attendee
+### [1.	Attendee](https://github.com/JohanScheepers/flutter_conference_hub/tree/main/lib/app/pages/attendee "Attendee")
 
  #### - [Badge](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/badge_attendee.dart "Badge") 
    - Information:
@@ -34,7 +34,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
      - Provide attendees the option to rate sessions and provide feedback.
 
 
-### 2.	Conference
+### [2.	Conference](https://github.com/JohanScheepers/flutter_conference_hub/tree/main/lib/app/pages/conference "Conference")
 
  #### - [Chat/Messaging](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/conference/chat_conference.dart "Chat/Messaging")
    - Attendees Chat: Allow attendees to communicate with each other and organizers within the app.
@@ -82,7 +82,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
      - Allow attendees to follow sponsors on social media.
 
 
-### 3.	Organizers
+### [3.	Organizers](https://github.com/JohanScheepers/flutter_conference_hub/tree/main/lib/app/pages/organizers "Organizers")
 
  #### - [Attendees](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/organizers/attendees_management_organizers.dart "Attendees")
    - Management:
