@@ -172,10 +172,3 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
  - Translation:
    - Support multiple languages for international conferences.
-
-## Monetization:
-
-This is possibly on the road map in the future.
-
- - Sponsor Ads:
-   - Display ads from sponsors within the app.
