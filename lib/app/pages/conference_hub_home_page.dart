@@ -1,8 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_conference_hub/app/const/const.dart';
+import 'package:flutter_conference_hub/dummy_data/dummy_data.dart';
 
-import 'package:flutter_conference_hub/dummy_data/dummy_data_events.dart';
+
+
 
 class ConferenceHubHomePage extends StatefulWidget {
   const ConferenceHubHomePage({super.key});
@@ -25,7 +26,7 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
           children: <Widget>[
             SizedBox(
               height: 180,
-              width: 200,
+              width: 250,
               child: CarouselSlider(
                 options: CarouselOptions(
                   autoPlay: true,
@@ -35,31 +36,25 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
                     .map(
                       (item) => Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                            decoration: BoxDecoration(
-                                color: darkColorScheme.primaryContainer,
-                                borderRadius: BorderRadius.circular(15)),
-                            child: Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    item.event,
-                                    style: const TextStyle(fontSize: 20),
-                                  ),
-                                  Text(
-                                    item.location,
-                                    style: const TextStyle(fontSize: 18),
-                                  ),
-                                  Text(
-                                      "From: ${item.startDate.toString().substring(0, 10)}"),
-                                  Text(
-                                      "To: ${item.endDate.toString().substring(0, 10)}")
-                                ],
+                        child: Padding(
+                          padding: const EdgeInsets.all(4.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                item.event,
                               ),
-                            )),
+                              Text(
+                                item.location,
+                              ),
+                              Text(
+                                  "From: ${item.startDate.toString().substring(0, 10)}"),
+                              Text(
+                                  "To: ${item.endDate.toString().substring(0, 10)}")
+                            ],
+                          ),
+                        ),
                       ),
                     )
                     .toList(),
@@ -68,9 +63,8 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
             const FlutterLogo(
               size: 100,
             ),
-            Text(
+            const Text(
               "Flutter Conference Hub",
-              style: Theme.of(context).textTheme.headlineMedium,
             ),
             ElevatedButton(onPressed: () {}, child: const Text("Log In")),
             IconButton(
@@ -78,6 +72,25 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
               onPressed: () {},
               icon: const Icon(Icons.favorite),
             ),
+            SizedBox(
+              width: 250,
+              height: 100,
+              child: CarouselSlider(
+                options: CarouselOptions(
+                  autoPlay: true,
+                  viewportFraction: 1.0,
+                ),
+                items: sponsors
+                    .map((item) => Column(
+                          children: [
+                            Text(item.name),
+                            Text(item.contact),
+                            Text(item.web)
+                          ],
+                        ))
+                    .toList(),
+              ),
+            )
           ],
         ),
       ),
