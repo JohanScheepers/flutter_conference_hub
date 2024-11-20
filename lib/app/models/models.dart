@@ -1,2 +1,2 @@
 export 'sponsors.dart';
-export 'up_comming_events.dart';
+export 'up_coming_events.dart';

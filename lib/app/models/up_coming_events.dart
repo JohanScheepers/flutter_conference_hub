@@ -1,8 +1,8 @@
-class UpCommingEvents {
+class UpComingEvents {
   final String event;
   final String location;
   final DateTime startDate;
   final DateTime endDate;
 
-  UpCommingEvents(this.event, this.location, this.startDate, this.endDate);
+  UpComingEvents(this.event, this.location, this.startDate, this.endDate);
 }

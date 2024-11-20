@@ -28,7 +28,7 @@ export 'conference/map_conference.dart';
 export 'conference/networking_conference.dart';
 
 //Newsfeed
-export 'conference/newsfeed_conference.dart';
+export 'conference/news_feed_conference.dart';
 
 //Schedule
 export 'conference/schedule_conference.dart';
