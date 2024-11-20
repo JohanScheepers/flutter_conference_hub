@@ -12,9 +12,14 @@ This is a great starting point for a Flutter conference app! Here's a more detai
    - Information:
      - Name, Photo, Title, Company, Contact Details, Interests, QR Code (for scanning), Conference Pass (e.g., VIP, Speaker, etc.)
    - Customization:
-     - Ability to change the background color or add a personal touch.
+     - Ability to change the light / dark mode or add a personal touch.
    - Accessibility:
      - Ensure the badge is accessible for users with visual impairments (e.g., using larger font sizes or alternative color schemes).
+
+ #### - [Login](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/login/login-page.dart "Login")
+        - Attendee login page with user name and password
+        - Registering a new account and verifying account via email
+        - Resting of password
 
  #### - [Networking](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/networking_attendee.dart "Networking")
    - Scanning other attendees QR code to connect and save contact details
@@ -143,6 +148,9 @@ This is a great starting point for a Flutter conference app! Here's a more detai
 
  #### - [Database](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/data_base.md "Database")
   - Database architecture to be followed.
+
+  #### - Routing
+    - Routing in the app to be done with go_router
 
  #### - BLE Beacon Integration
    - SDKs:
