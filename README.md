@@ -17,9 +17,9 @@ This is a great starting point for a Flutter conference app! Here's a more detai
      - Ensure the badge is accessible for users with visual impairments (e.g., using larger font sizes or alternative color schemes).
 
  #### - Login
-        - Attendee login page with user name and password
-        - Registering a new account and verifying account via email
-        - Resting of password
+    - Attendee login page with user name and password
+    - Registering a new account and verifying account via email
+    - Resting of password
 
  #### - [Networking](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/lib/app/pages/attendee/networking_attendee.dart "Networking")
    - Scanning other attendees QR code to connect and save contact details
