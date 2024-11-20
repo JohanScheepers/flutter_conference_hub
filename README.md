@@ -141,7 +141,7 @@ This is a great starting point for a Flutter conference app! Here's a more detai
  #### - Backend
    - We are consider using a backend service like Firebase, or even a custom server to manage data, authentication, push notifications, and other functionality.
 
- #### - [Database](https://github.com/JohanScheepers/flutter_conference_hub/data_base.md "Database")
+ #### - [Database](https://github.com/JohanScheepers/flutter_conference_hub/blob/main/data_base.md "Database")
   - Database architecture to be followed.
 
  #### - BLE Beacon Integration
