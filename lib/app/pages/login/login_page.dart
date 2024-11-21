@@ -14,7 +14,11 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: const Text("Login"),
       ),
-      body: const Placeholder(),
+      body: const Center(
+        child: Column(
+          children: [Text("Username"), Text("Password")],
+        ),
+      ),
     );
   }
 }
