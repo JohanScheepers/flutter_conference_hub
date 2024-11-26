@@ -1,9 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_conference_hub/dummy_data/dummy_data.dart';
-
-
-
+import 'package:go_router/go_router.dart';
 
 class ConferenceHubHomePage extends StatefulWidget {
   const ConferenceHubHomePage({super.key});
@@ -69,7 +67,9 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
             ElevatedButton(onPressed: () {}, child: const Text("Log In")),
             IconButton(
               iconSize: 72,
-              onPressed: () {},
+              onPressed: () {
+                context.go("/map");
+              },
               icon: const Icon(Icons.favorite),
             ),
             SizedBox(

@@ -20,6 +20,11 @@ final GoRouter _router = GoRouter(
         return const LoginPage();
       },
     ),
+    GoRoute(
+        path: "/map",
+        builder: (BuildContext context, GoRouterState state) {
+          return const MapConferencePage();
+        })
   ],
 );
 

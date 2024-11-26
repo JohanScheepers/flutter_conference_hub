@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class ErrorPage extends StatelessWidget {
-  const ErrorPage(this.error, {super.key});
+  const   ErrorPage(this.error, {super.key});
     final GoException? error;
 
   @override
