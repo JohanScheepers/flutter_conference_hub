@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_conference_hub/app/pages/conference/map_conference.dart';
+
 import 'package:flutter_conference_hub/app/pages/conference_hub_home_page.dart';
 import 'package:flutter_conference_hub/app/pages/pages.dart';
 import 'package:go_router/go_router.dart';
