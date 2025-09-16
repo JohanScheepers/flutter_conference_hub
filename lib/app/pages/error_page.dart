@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_conference_hub/app/const/const.dart';
 import 'package:go_router/go_router.dart';
 
 class ErrorPage extends StatelessWidget {
@@ -17,7 +18,7 @@ class ErrorPage extends StatelessWidget {
           children: [
             Text(error?.message ?? "Sorry"),
             const SizedBox(
-              height: 20,
+              height: kHeightMedium,
             ),
             ElevatedButton(
                 onPressed: () {

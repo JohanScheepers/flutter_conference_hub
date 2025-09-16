@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_conference_hub/app/const/const.dart';
 import 'package:flutter_conference_hub/dummy_data/dummy_data.dart';
 import 'package:go_router/go_router.dart';
 
@@ -23,9 +24,9 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(
-              height: 180,
-              width: 500,
-              child: DecoratedBox(decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.white)),
+              height: kHeightSuperLarge,
+              width: kWidthMegaLarge,
+              child: DecoratedBox(decoration: BoxDecoration(border: Border.all(width: 1,color: Theme.of(context).colorScheme.onPrimary)),
                 child: CarouselSlider(
                   options: CarouselOptions(
                     autoPlay: true,
@@ -34,25 +35,25 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
                   items: upComingEvents
                       .map(
                         (item) => Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(kPaddingMedium),
                           child: Padding(
-                            padding: const EdgeInsets.all(4.0),
+                            padding: const EdgeInsets.all(kPaddingSmall),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
                                   item.event,
-                                  style: TextStyle(fontSize: 30),
+                                  style: kHeadingTextStyle,
                                 ),
                                 Text(item.location,
-                                    style: TextStyle(fontSize: 24)),
+                                    style: kSubheadingTextStyle),
                                 Text(
                                     "From: ${item.startDate.toString().substring(0, 10)}",
-                                    style: TextStyle(fontSize: 24)),
+                                    style: kSubheadingTextStyle),
                                 Text(
                                     "To: ${item.endDate.toString().substring(0, 10)}",
-                                    style: TextStyle(fontSize: 24))
+                                    style: kSubheadingTextStyle)
                               ],
                             ),
                           ),
@@ -63,22 +64,22 @@ class _ConferenceHubHomePageState extends State<ConferenceHubHomePage> {
               ),
             ),
             const FlutterLogo(
-              size: 100,
+              size: kIconSizeExtraLarge,
             ),
             const Text(
               "Flutter Conference Hub",
             ),
             ElevatedButton(onPressed: () {}, child: const Text("Log In")),
             IconButton(
-              iconSize: 72,
+              iconSize: kIconSizeLarge,
               onPressed: () {
                 context.go("/map");
               },
               icon: const Icon(Icons.favorite),
             ),
             SizedBox(
-              width: 250,
-              height: 100,
+              width: kWidthSuperLarge,
+              height: kHeightExtraLarge,
               child: CarouselSlider(
                 options: CarouselOptions(
                   autoPlay: true,
