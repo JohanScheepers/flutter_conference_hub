@@ -30,3 +30,4 @@ const kIconSizeSmall = 24.0;
 const kIconSizeMedium = 50.0;
 const kIconSizeLarge = 72.0;
 const kIconSizeExtraLarge = 100.0;
+const kIconSizeMegaLarge = 500.0;
