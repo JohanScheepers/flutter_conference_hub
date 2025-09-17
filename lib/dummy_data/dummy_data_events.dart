@@ -2,12 +2,6 @@ import 'package:flutter_conference_hub/app/models/models.dart';
 
 List<UpComingEvents> upComingEvents = [
   UpComingEvents(
-    event: 'Angular + AI Developer Event',
-    location: 'Virtual',
-    startDate: DateTime(2025, 9, 16),
-    endDate: DateTime(2025, 9, 16),
-  ),
-  UpComingEvents(
     event: 'Fluttercon Europe',
     location: 'Berlin, Germany',
     startDate: DateTime(2025, 9, 24),
