@@ -2,6 +2,6 @@ import 'package:flutter_conference_hub/app/models/models.dart';
 
 List<Sponsors> sponsors = [
   Sponsors(
-      "Add your support", "to the project", "as this is your community"),
+      "Add your support", "to the project", "as this is a community for you"),
   Sponsors("We need", "designers and dev", "to showcase their skills")
 ];
